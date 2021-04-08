@@ -24,9 +24,9 @@ def newXuexi(id):
     response = requests.post(url, headers=headers, data=payload)
     j = json.loads(response.content)
     if j['success'] == True:
-        print('{0}打卡成功'.format(id))
+        log('{0}打卡成功'.format(id))
     else:
-        print('{0}打卡失败'.format(id))
+        log('{0}打卡失败'.format(id))
 
 #往期大学习打卡
 def xuexi(id):
