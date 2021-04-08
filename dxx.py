@@ -1,6 +1,18 @@
 import requests
 import json
 import time
+import sys
+from datetime import datetime, timedelta, timezone
+
+def getTimeStr():
+    utc_dt = datetime.utcnow().replace(tzinfo=timezone.utc)
+    bj_dt = utc_dt.astimezone(timezone(timedelta(hours=8)))
+    return bj_dt.strftime("%Y-%m-%d %H:%M:%S")
+
+
+def log(content):
+    print(getTimeStr() + ' ' + str(content))
+    sys.stdout.flush()
 
 #本期大学习打卡
 def newXuexi(id):
