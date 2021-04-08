@@ -1,14 +1,14 @@
 {
   "token":{
-    "openId":"dsfsdfsd",
-    "unionId":"sdfsdfs"
+    "openId":"",
+    "unionId":""
   },
   "location":{
     "country":"*国",
     "province":"***省",
-    "city":"***sdfsdf市",
-    "adcode":"fdsfdsfsd*",
+    "city":"***市",
+    "adcode":"****",
     "address":"*****"
   },
-  "barkToken": "sdfsafd"
+  "barkToken": ""
 }
