@@ -1,14 +1,14 @@
 {
   "token":{
-    "openId":"ooru94nKBke6RQrfsRk1wX0i32Q4",
-    "unionId":"oHY-uwTMrMMH9gCKkikbWKnb2Xf8"
+    "openId":"",
+    "unionId":""
   },
   "location":{
     "country":"中国",
-    "province":"湖南省省",
-    "city":"长沙市",
-    "adcode":"430121",
-    "address":"万家丽北路宏梦卡通城内郡原居里"
+    "province":"***省",
+    "city":"***市",
+    "adcode":"****",
+    "address":"*****"
   },
-  "barkToken": "WEFi5VibHqrny4kzUPwWgT"
+  "barkToken": ""
 }
