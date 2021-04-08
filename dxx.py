@@ -3,7 +3,7 @@ import json
 import time
 
 #本期大学习打卡
-def xuexi(id):
+def newXuexi(id):
     url = "http://dxx.hngqt.org.cn/study/studyAdd"
     payload={'projectId': str(id)}
     headers = {
@@ -17,7 +17,7 @@ def xuexi(id):
         print('{0}打卡失败'.format(id))
 
 #往期大学习打卡
-def main(id):
+def xuexi(id):
     url = "http://dxx.hngqt.org.cn/historystudy/studyHistoryAdd"
     payload={'projectId': str(id)}
     headers = {
@@ -33,6 +33,6 @@ def main(id):
 if __name__ == '__main__':
     for i in range(50,74):
         #print(i)
-        main(i)
+        xuexi(i)
         time.sleep(1)
         
